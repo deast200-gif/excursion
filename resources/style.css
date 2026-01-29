@@ -1,15 +1,32 @@
 
 body {
-    background-color: black;
+    background-color: black; 
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     font-weight: normal;
-    color: gray;
+    color: white;
     text-align: center;
 
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+
+}
+
+h4 {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    text-align: center;
 }
 
 a {
@@ -17,5 +34,42 @@ a {
     font-size: 16px;
     text-align: center;
     display: block;
+    margin: 0;
  
+}
+
+.video-container {
+    /* background-color: green;  */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+
+}
+
+.fontawesome {
+
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+footer {
+    color: gray;
+    text-align: right;
 }
